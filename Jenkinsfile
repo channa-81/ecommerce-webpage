@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_USERNAME = 'channa-81'
         DOCKER_IMAGE = 'webapp'
-        DOCKERHUB_REPO = 'Ecomms'
+        DOCKERHUB_REPO = 'ecomms'
         VERSION = '$BUILD_ID'
         CONTAINER_NAME = 'app'
         CONTAINER_PORT = '8003'
